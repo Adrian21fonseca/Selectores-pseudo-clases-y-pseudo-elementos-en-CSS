@@ -1,0 +1,15 @@
+* {
+    font-size: 40px;
+}
+
+.boton {
+    background-color: bisque;
+    color: rgb(0, 0, 0);
+    border: none;
+}
+
+.boton:hover {
+    cursor: pointer;
+    background-color: green;
+    color: white;
+}
