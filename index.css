@@ -1,15 +1,16 @@
-* {
-    font-size: 40px;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
 }
-
-.boton {
-    background-color: bisque;
-    color: rgb(0, 0, 0);
-    border: none;
-}
-
 .boton:hover {
-    cursor: pointer;
     background-color: green;
     color: white;
+}
+.boton::before {
+    content: "Pasa por encima"
+}
+.boton:hover::before {
+    content: "¡Hecho!"
 }
